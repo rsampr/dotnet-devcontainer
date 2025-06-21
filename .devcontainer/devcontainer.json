@@ -1,0 +1,17 @@
+{
+  "name": "Azure Dotnet environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "bash"
+  },
+  "extensions": [
+    "ms-dotnettools.csharp",
+    "ms-azuretools.vscode-logicapps",
+    "ms-vscode.azure-account",
+    "ms-vscode.vscode-node-azure-pack",
+    "esbenp.prettier-vscode"
+  ],
+  "remoteUser": "root"
+}
